@@ -273,7 +273,7 @@ contract VRFCoordinatorV2Mock is VRFCoordinatorV2Interface {
 
   function getFeeConfig()
     external
-    view
+    pure
     returns (
       uint32 fulfillmentFlatFeeLinkPPMTier1,
       uint32 fulfillmentFlatFeeLinkPPMTier2,
